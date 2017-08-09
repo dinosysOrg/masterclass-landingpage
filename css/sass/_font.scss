@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: url('../../fonts/BrandonGrotesque-Bold.eot');
+  src: url('../../fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+       url('../../fonts/BrandonGrotesque-Bold.woff') format('woff'),
+       url('../../fonts/BrandonGrotesque-Bold.ttf') format('truetype'),
+       url('../../fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Black';
+  src: url('../../fonts/BrandonGrotesque-Black.eot');
+  src: url('../../fonts/BrandonGrotesque-Black.woff2') format('woff2'),
+       url('../../fonts/BrandonGrotesque-Black.woff') format('woff'),
+       url('../../fonts/BrandonGrotesque-Black.ttf') format('truetype'),
+       url('../../fonts/BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url('../../fonts/BrandonGrotesque-Medium.eot');
+  src: url('../../fonts/BrandonGrotesque-Medium.woff2') format('woff2'),
+       url('../../fonts/BrandonGrotesque-Medium.woff') format('woff'),
+       url('../../fonts/BrandonGrotesque-Medium.ttf') format('truetype'),
+       url('../../fonts/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Regular';
+  src: url('../../fonts/BrandonGrotesque-Regular.eot');
+  src: url('../../fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+       url('../../fonts/BrandonGrotesque-Regular.woff') format('woff'),
+       url('../../fonts/BrandonGrotesque-Regular.ttf') format('truetype'),
+       url('../../fonts/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-bold: BrandonGrotesque-Bold;
+$font-black: BrandonGrotesque-Black;
+$font-medium: BrandonGrotesque-Medium;
+$font-regular: BrandonGrotesque-Regular;
+
+
