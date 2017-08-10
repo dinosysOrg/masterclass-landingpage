@@ -9,6 +9,9 @@
     display: none;
   }
   .carousel-indicators {
+    @include maxs($sp-1024) {
+      display: none;
+    }
     left: 90%;
     li {
       width: 7px;
@@ -41,17 +44,34 @@
     left: 13%;
     text-align: left;
     top: 62%;
+    @include maxs($sp-1400) {
+       top: 55%;
+    }
+    @include maxs($sp-480) {
+       top: 50%;
+       right: 0%;
+       transform: translate(0%, -50%);
+       left:2%;
+    }
     h2 {
       font-family: $font-bold;
       color: #f8dc17;
       font-size: 48px;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       margin-bottom: 10px;
+      @include maxs($sp-767) {
+       font-size: 40px;
+      }
     }
     h3 {
       font-size: 26px;
       line-height: 35px;
       margin-bottom: 15px;
+      @include maxs($sp-767) {
+       font-size: 23px;
+      }
     }
   }
 }
+
+

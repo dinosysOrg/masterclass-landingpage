@@ -5,6 +5,12 @@
     left: 50%;
     top: 45%;
     transform: translate(-50%, -45%);
+    @include maxs($sp-480) {
+      position: initial;
+      left: 50%;
+      top: 45%;
+      transform: initial;
+    }
   }
   .modal-body{
     background-color: #fff;
@@ -33,12 +39,20 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       line-height: 50px;
       margin-bottom: 10px;
+      @include maxs($sp-480) {
+        font-size: 30px;
+        line-height: 40px;
+      }
     }
     p{font-size: 17px}
     form{
       margin-top: 20px;
       width: 50%;
       float: right;
+      @include maxs($sp-480) {
+        width: 100%;
+        float: initial;
+      }
       .btn-getNews{
         color: #f8dc17;
         font-weight: bold;

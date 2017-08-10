@@ -16,13 +16,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     .Bar {
-      background: #04c096;
+      background: #f8dc17;
       height: 0;
       position: absolute;
       bottom: 0;
       width: 10px;
       border-radius: 2px;
-
       @for $i from 0 through 6 {
         &:nth-child(#{$i}) {
           left: ($i * 15px) - 15px;
@@ -32,7 +31,6 @@
     }
   }
 }
-
 @keyframes bottom-top {
   0% {
     height: 0;

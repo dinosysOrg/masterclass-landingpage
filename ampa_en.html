@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,26 +26,36 @@
       <div class="Bar"></div>
     </div>
   </div>
-  <div id="header" class="container">
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">English <span><img src="./images/icon-arrow.png" alt=""></span></button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-        <li><a href="#">English</a></li>
-        <li><a href="#">Vietnamese</a></li>
-      </ul>
-    </div>
-    <div class="masthead clearfix">
-      <div class="inner">
-        <div class="masthead-brand"><a href="#"><img src="./images/logo.png" alt=""></a></div>
-        <nav>
-          <ul class="nav masthead-nav">
-            <li><a href="./index_en.html">MASTERCLASS</a></li>
-            <li><a href="#">WONDERKIDS</a></li>
-            <li class="active"><a href="#">AMPA</a></li>
+  <div id="header">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">English <span><img src="./images/icon-arrow.png" alt=""></span></button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><a href="#">English</a></li>
+            <li><a href="#">Vietnamese</a></li>
           </ul>
-        </nav>
+        </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="img-responsive" src="./images/logo.png" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./index_en.html">MASTERCLASS</a></li>
+            <li><a href="./wonderkid_en.html">WONDERKIDS</a></li>
+            <li class="active"><a href="./ampa_en.html">AMPA</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
       </div>
-    </div>
+    </nav>
   </div>
   <div id="fullpage" class="fullpage-wrapper">
     <section id="section-1" class="section page-style">
@@ -102,7 +113,7 @@
     <section id="section-ampa" class="section page-style">
       <div class="container">
         <div class="row">
-          <div class="media media-top">
+          <div class="media media-top animated">
             <div class="media-left media-middle">
               <img class="media-object" src="./images/logo_ampa.png" alt="...">
             </div>
@@ -111,43 +122,50 @@
               <p class="note">is a proud production of AMPA Vietnam!</p>
             </div>
           </div>
-          <div class="media">
+          <div class="media animated">
             <div class="media-left media-middle">
               <img class="media-object" src="./images/logo.png" alt="...">
             </div>
             <div class="media-body">
-              <p class="note">Asia Music & Performing Arts Education (AMPA Education) is the only distributor of international music & performing arts curricula and certifications in the Southeast Asia region. With our significant experience music and the performing arts education, we are able to offer strong and unrivaled insight into the music & performing arts education industry in the region. We therefore have the ability to boost the development of these products in this growing market, by matching product features to specific customer needs, creating demand for these products and providing them to the best fit target segments.</p>
+              <p class="note">Asia Music & Performing Arts Education (AMPA Education) is the only distributor of international music & performing
+                arts curricula and certifications in the Southeast Asia region. With our significant experience music and
+                the performing arts education, we are able to offer strong and unrivaled insight into the music & performing
+                arts education industry in the region. We therefore have the ability to boost the development of these products
+                in this growing market, by matching product features to specific customer needs, creating demand for these
+                products and providing them to the best fit target segments.</p>
             </div>
           </div>
-          <div class="media">
+          <div class="media animated">
             <div class="media-left media-middle">
               <img class="media-object" src="./images/logo_wonderkids.png" alt="...">
             </div>
             <div class="media-body">
-              <p class="note">As a pioneer in this developing industry, we have built strong relationships with international music and performing arts educational institutions and publishers. These include Trinity College London, Imperial Society of Teachers of Dancing (ISTD), National Association of Teachers of Dancing (NATD), Kindermusik and Alfred Music.</p>
+              <p class="note">As a pioneer in this developing industry, we have built strong relationships with international music and performing
+                arts educational institutions and publishers. These include Trinity College London, Imperial Society of Teachers
+                of Dancing (ISTD), National Association of Teachers of Dancing (NATD), Kindermusik and Alfred Music.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="section-3" class="section page-style">
-      <div class="content">
-        <div class="box-contact animated">
-          <h3>BE THE FIRST TO EXPOERIENCE<br> MASTERCLASS VIETNAM !</h3>
-          <p>We never publish your information with any third party.</p>
-          <p>By signing up, you’ll get first updates about launching dates and great deals.</p>
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="NAME">
-            </div>
-            <select class="form-control" data-style="btn-info">
+      <div class="box-contact animated">
+        <h3>BE THE FIRST TO EXPOERIENCE<br> MASTERCLASS VIETNAM !</h3>
+        <p>We never publish your information with any third party.</p>
+        <p>By signing up, you’ll get first updates about launching dates and great deals.</p>
+        <div id="thankyou_message">Thank you for contacting us !</div>
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">    
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="NAME">
+          </div>
+          <select class="form-control" name="age" data-style="btn-info">
               <option disabled selected>AGE GROUP</option>
               <option>< 12</option>
               <option>13 - 18</option>
               <option>19 - 40</option>
               <option>> 40</option>
             </select>
-            <select class="form-control" data-style="btn-info">
+          <select class="form-control" name="musical" data-style="btn-info">
               <option disabled selected>MUSICAL INTEREST</option>
               <option>GUITAR</option>
               <option>PIANO</option>
@@ -156,15 +174,14 @@
               <option>MUSIC THEORY</option>
               <option>OTHER</option>
             </select>
-            <div class="form-group">
-              <input type="email" class="form-control" required id="email" placeholder="Email*">
-            </div>
-            <div>
-              <span>* indicates required fields.</span>
-              <span><button type="submit" class="btn btn-default btn-getNews">GET LATESTED NEWS!</button></span>
-            </div>
-          </form>
-        </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" required id="email" placeholder="Email*">
+          </div>
+          <div class="clearfix">
+            <span>* indicates required fields.</span>
+            <span><button type="submit" class="btn btn-default btn-getNews">GET LATESTED NEWS!</button></span>
+          </div>
+        </form>
       </div>
     </section>
     <section id="section-5" class="section fp-auto-height">
@@ -180,29 +197,30 @@
     </section>
   </div>
 
-<!-- Modal -->
-<div id="modalGetNew" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <h3>BE THE FIRST TO EXPERIENCE MASTERCLASS VIETNAM!</h3>
-        <p>We never publish your information with any third party.</p>
-        <p>By signing up, you’ll get first updates about launching dates and great deals.</p>
-        <div class="clearfix">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="NAME">
-            </div>
-            <select class="form-control" data-style="btn-info">
+  <!-- Modal -->
+  <div id="modalGetNew" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h3>BE THE FIRST TO EXPERIENCE MASTERCLASS VIETNAM!</h3>
+          <p>We never publish your information with any third party.</p>
+          <p>By signing up, you’ll get first updates about launching dates and great deals.</p>
+          <div class="clearfix">
+            <div id="thankyou_message_modal">Thank you for contacting us !</div>
+            <form id="gformModal" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">    
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="NAME">
+              </div>
+              <select name="age" class="form-control" data-style="btn-info">
               <option disabled selected>AGE GROUP</option>
               <option>< 12</option>
               <option>13 - 18</option>
               <option>19 - 40</option>
               <option>> 40</option>
             </select>
-            <select class="form-control" data-style="btn-info">
+              <select class="form-control" name="musical" data-style="btn-info">
               <option disabled selected>MUSICAL INTEREST</option>
               <option>GUITAR</option>
               <option>PIANO</option>
@@ -211,25 +229,26 @@
               <option>MUSIC THEORY</option>
               <option>OTHER</option>
             </select>
-            <div class="form-group">
-              <input type="email" class="form-control" required id="email" placeholder="Email*">
-            </div>
-            <div>
-              <span>* indicates required fields.</span>
-              <span><button type="submit" class="btn btn-default btn-getNews">GET LATESTED NEWS!</button></span>
-            </div>
-          </form>
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" required id="email" placeholder="Email*">
+              </div>
+              <div>
+                <span>* indicates required fields.</span>
+                <span><button type="submit" class="btn btn-default btn-getNews">GET LATESTED NEWS!</button></span>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
   <!-- Bootstrap core JavaScript -->
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/jquery.fullPage.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

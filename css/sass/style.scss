@@ -14,15 +14,30 @@ h5 {
   font-family: $font-regular;
   font-size: 15px;
 }
-.section .animated {
-  // visibility: hidden;
-  animation-delay: 0ms !important;
+#thankyou_message, #thankyou_message_modal{
+  display: none;
+  font-size: 40px;
+  color: #f8dc17;
+  font-family: $font-bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.img-res {
+  width: 100%;
+}
+body.pc {
+  .section .animated {
+    opacity: 0;
+    animation-delay: 0ms !important;
+  }
 }
 .form-control {
   font-size: 15px;
 }
 .form-group {
   margin-bottom: 22px;
+  @include maxs($sp-1400) {
+    margin-bottom: 12px;
+  }
 }
 select {
   margin-bottom: 20px;
@@ -44,6 +59,9 @@ input,
   width: 100%;
   height: 100%;
 }
+#myCarousel{
+  height: 100vh;
+}
 .carousel,
 .item,
 .active {
@@ -64,6 +82,9 @@ input,
 
 #section-2 {
   background-color: #181818;
+  @include maxs($sp-1024) {
+    padding: 100px 0px;
+  }
   .left-box-yellow {
     position: absolute;
     width: 40%;
@@ -72,10 +93,23 @@ input,
     border: solid 3px #ddc107;
     padding: 2.2%;
     z-index: 2;
+    @include maxs($sp-1400) {
+      width: 45%;
+    }
+    @include maxs($sp-1366) {
+      width: 47%;
+    }
+    @include maxs($sp-1024) {
+      position: initial;
+      width: 80%;
+      margin: auto;
+    }
+    @include maxs($sp-767) {
+       width: 95%;
+    }
     .stroke {
       width: 80%;
       height: 80%;
-      content: "";
       position: absolute;
       left: -8%;
       top: -20%;
@@ -83,6 +117,9 @@ input,
       background-size: contain;
       background-repeat: no-repeat;
       z-index: 1;
+      @include maxs($sp-1024) {
+        display: none;
+      }
     }
     h3 {
       font-size: 40px;
@@ -109,6 +146,21 @@ input,
     bottom: 10%;
     z-index: 4;
     text-align: center;
+    @include maxs($sp-1400) {
+      right: 10%;
+    }
+    @include maxs($sp-1366) {
+      right: 8%;
+      bottom: 5%;
+    }
+    @include maxs($sp-1024) {
+      position: initial;
+      width: 80%;
+      margin: auto;
+    }
+    @include maxs($sp-767) {
+       width: 95%;
+    }
   }
 }
 
@@ -116,15 +168,31 @@ input,
   background-image: url('../images/section_img_1.jpg');
   background-size: cover;
   color: #fff;
+  @include maxs($sp-1024) {
+    padding: 100px 0px;
+  }
   .box-contact {
-    position: absolute;
+    // position: absolute;
     background: rgba(255, 255, 255, .4);
     width: 48%;
-    right: 4%;
+    // right: 4%;
     padding: 2.5%;
-    top: 60%;
-    transform: translate(0%, -60%);
-
+    float: right;
+    margin-top: 4%;
+    margin-right: 3%;
+ 
+    @include maxs($sp-1366) {
+      padding: 1.5%;
+    }
+    @include maxs($sp-1024) {
+      width: 80%;
+      float: initial;
+      margin: auto;
+      padding: 3.5%;
+    }
+    @include maxs($sp-767) {
+       width: 95%;
+    }
     h3 {
       font-size: 40px;
       line-height: 50px;
@@ -132,6 +200,10 @@ input,
       font-weight: bold;
       margin-bottom: 15px;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      @include maxs($sp-1366) {
+        font-size: 30px;
+        line-height: 40px;
+      }
     }
     p {
       font-size: 20px;
@@ -152,6 +224,10 @@ input,
     margin-top: 30px;
     width: 50%;
     margin-left: 50%;
+   @include maxs($sp-767) {
+      width: 100%;
+      margin-left: 0%;
+    }
   }
 }
 #section-4 {
@@ -160,6 +236,9 @@ input,
   background-repeat: no-repeat;
   background-position: 85%;
   color: #fff;
+  @include maxs($sp-1024) {
+    padding: 100px 0px;
+  }
   .media-object {
     width: 150px;
     height: 150px;
@@ -171,6 +250,12 @@ input,
   }
   p.note {
     font-size: 45px;
+    @include maxs($sp-1024) {
+      font-size: 35px;
+    }
+    @include maxs($sp-768) {
+      font-size: 30px;
+    }
   }
 }
 #section-5 {
@@ -223,27 +308,123 @@ input,
 }
 #section-ampa {
   background: #181818;
-  background-image: url('../../images/section_img_2.png');
+  background-image: url('../images/section_img_2.png');
   background-repeat: no-repeat;
   background-position: 85% 75%;
   color: #fff;
+  @include maxs($sp-1024) {
+    padding: 100px 0px;
+  }
   .media-top {
     margin-top: 10%;
-    .media-body{
+    .media-body {
       vertical-align: middle;
-      h3{
+      h3 {
         font-size: 48px;
         font-family: $font-bold;
       }
-      p{font-family: $font-medium;font-size: 24px;}
+      p {
+        font-family: $font-medium;
+        font-size: 24px;
+      }
     }
   }
   .media {
     margin-bottom: 3%;
-    p{font-size: 21px;}
+    @include maxs($sp-767) {
+      .media-left, .media-body{
+        display: block;
+        vertical-align: initial;
+        width: initial;
+        overflow: initial;
+        zoom: initial;
+        text-align: center;
+        .media-object{
+          margin: 40px auto;
+        }
+      }
+    }
+    p {
+      font-size: 21px;
+    }
     .media-object {
       width: 250px;
       margin-right: 50px;
+      @include maxs($sp-1366) {
+        width: 200px;
+      }
+      @include maxs($sp-1024) {
+        width: 180px;
+        margin-right: 10px;
+      }
+      @include maxs($sp-767) {
+        width: 250px;
+      }
+    }
+  }
+}
+
+#section-wonderkid {
+  background: #181818;
+  background-image: url('../images/section_img_2.png');
+  background-repeat: no-repeat;
+  color:#fff;
+  background-position: 82% 65%;
+  @include maxs($sp-1024) {
+    padding: 100px 0px;
+  }
+  @include maxs($sp-768) {
+    .col-md-3, .col-md-9{
+      text-align: center;
+    }
+  }
+  h3 {
+    font-size: 48px;
+    font-family: $font-bold;
+    margin-top: 30px;
+    @include maxs($sp-1366) {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+  }
+  h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 21px;
+    @include maxs($sp-1366) {
+        font-size: 18px;
+    }
+  }
+  .txt-dow{
+    color: #f8dc17;
+    font-size: 16px;
+    margin-top: 30px;
+    @include maxs($sp-1366) {
+       margin-top: 15px;
+    }
+    @include maxs($sp-768) {
+      text-align: center;
+    }
+  }
+  .list-inline{
+    @include maxs($sp-768) {
+      margin: auto;
+      text-align: center;
+    }
+  }
+  .list-inline li{
+    margin-left: 30px;
+    margin-top: 45px;
+    @include maxs($sp-1366) {
+       margin-top: 15px;
+       img{
+         width: 120px;
+       }
+    }
+    &:first-child{
+      margin-left: 0px;
     }
   }
 }

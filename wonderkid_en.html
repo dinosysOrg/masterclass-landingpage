@@ -26,7 +26,6 @@
       <div class="Bar"></div>
     </div>
   </div>
-
   <div id="header">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -49,8 +48,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="./index_en.html">MASTERCLASS</a></li>
-            <li><a href="./wonderkid_en.html">WONDERKIDS</a></li>
+            <li><a href="./index_en.html">MASTERCLASS</a></li>
+            <li class="active"><a href="./wonderkid_en.html">WONDERKIDS</a></li>
             <li><a href="./ampa_en.html">AMPA</a></li>
           </ul>
         </div>
@@ -58,7 +57,6 @@
       </div>
     </nav>
   </div>
-
   <div id="fullpage" class="fullpage-wrapper">
     <section id="section-1" class="section page-style">
       <a class="btn-arrow-down floating" href="#"><img class="img-responsive" src="./images/icon-arrow.png" alt=""></a>
@@ -71,7 +69,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="fill" style="background-image:url('./images/slide_img_1.jpg');"></div>
+            <div class="fill" style="background-image:url('./images/slide_img_2.jpg');"></div>
             <div class="carousel-caption">
               <h2>LEARN MUSIC ANYWHERE, ANYTIME</h2>
               <h3>The first music learning platform that lets users choose <br> their own customized learning path no matter
@@ -81,7 +79,7 @@
             </div>
           </div>
           <div class="item">
-            <div class="fill" style="background-image:url('./images/slide_img_2.jpg');"></div>
+            <div class="fill" style="background-image:url('./images/slide_img_1.jpg');"></div>
             <div class="carousel-caption">
               <h2>LEARN MUSIC ANYWHERE, ANYTIME</h2>
               <h3>The first music learning platform that lets users choose <br> their own customized learning path no matter
@@ -112,21 +110,32 @@
       </div>
       <!-- /.carousel -->
     </section>
-    <section id="section-2" class="section page-style">
-      <div class="content">
-        <div class="left-box-yellow animated">
-          <h3>HOW MASTERCLASS <br>VIETNAM WORKS?</h3>
-          <div class="stroke"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac lacus sed magna vulputate fringilla. Vestibulum
-            rutrum tellus a odio pellentesque pellentesque. Vivamus porttitor augue eros, in ornare ipsum tempor et. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tempus nisi vel viverra
-            faucibus. Integer dignissim dui at eros ornare, ac tincidunt justo per inceptos himenaeos. Morbi tempus nisi
-            vel viverra faucibus. Integer dignissim dui at eros ornare, ac tincidunt justo.</p>
-        </div>
-        <div class="video-box animated">
-          <div>
-            <img class="img-res" src="./images/image-video.jpg" alt="">
+    <section id="section-wonderkid" class="section page-style">
+      <div class="container animated animate-wonder">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <img src="./images/logo_wonderkids.png" alt="">
           </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 col-md-offset-3 col-sm-12">
+            <h3>WONDERKIDS Vietnam</h3>
+            <h4>is a proud production of AMPA !</h4>
+            <p>Asia Music & Performing Arts Education (AMPA Education) is the only distributor of international music & performing
+              arts curricula and certifications in the Southeast Asia region. With our significant experience music and the
+              performing arts education, we are able to offer strong and unrivaled insight into the music & performing arts
+              education industry in the region. We therefore have the ability to boost the development of these products
+              in this growing market, by matching product features to specific customer needs, creating demand for these
+              products and providing them to the best fit target segments.</p>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="list-inline">
+            <li><a href="#"><img src="./images/icon-download.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/icon-download.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/icon-download.png" alt=""></a></li>
+          </ul>
+          <p class="txt-dow">Click on these buttons to start downloading!</p>
         </div>
       </div>
     </section>
@@ -136,18 +145,18 @@
         <p>We never publish your information with any third party.</p>
         <p>By signing up, you’ll get first updates about launching dates and great deals.</p>
         <div id="thankyou_message">Thank you for contacting us !</div>
-        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">    
           <div class="form-group">
-            <input type="text" class="form-control" name="name" id="name" placeholder="NAME">
+            <input name="name" type="text" class="form-control" id="name" placeholder="NAME">
           </div>
-          <select class="form-control" name="age" data-style="btn-info">
+          <select name="age" class="form-control" data-style="btn-info">
               <option disabled selected>AGE GROUP</option>
               <option>< 12</option>
               <option>13 - 18</option>
               <option>19 - 40</option>
               <option>> 40</option>
             </select>
-          <select class="form-control" name="musical" data-style="btn-info">
+          <select name="musical" class="form-control" data-style="btn-info">
               <option disabled selected>MUSICAL INTEREST</option>
               <option>GUITAR</option>
               <option>PIANO</option>
@@ -164,21 +173,6 @@
             <span><button type="submit" class="btn btn-default btn-getNews">GET LATESTED NEWS!</button></span>
           </div>
         </form>
-      </div>
-    </section>
-    <section id="section-4" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="media animated">
-            <div class="media-left media-middle">
-              <img class="media-object img-circle" src="http://via.placeholder.com/300x300" alt="...">
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Middle aligned media</h4>
-              <p class="note">"This is something you have never seen before! <br>Technology blows my mind!"</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
     <section id="section-5" class="section fp-auto-height">
@@ -206,26 +200,26 @@
           <p>By signing up, you’ll get first updates about launching dates and great deals.</p>
           <div class="clearfix">
             <div id="thankyou_message_modal">Thank you for contacting us !</div>
-            <form id="gformModal" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">
+            <form id="gformModal" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">    
               <div class="form-group">
-                <input name="name" type="text" class="form-control" id="name" placeholder="NAME">
+                <input type="text" name="name" class="form-control" id="name" placeholder="NAME">
               </div>
               <select name="age" class="form-control" data-style="btn-info">
-                <option disabled selected>AGE GROUP</option>
-                <option>< 12</option>
-                <option>13 - 18</option>
-                <option>19 - 40</option>
-                <option>> 40</option>
-              </select>
+              <option disabled selected>AGE GROUP</option>
+              <option>< 12</option>
+              <option>13 - 18</option>
+              <option>19 - 40</option>
+              <option>> 40</option>
+            </select>
               <select name="musical" class="form-control" data-style="btn-info">
-                <option disabled selected>MUSICAL INTEREST</option>
-                <option>GUITAR</option>
-                <option>PIANO</option>
-                <option>VOCALS</option>
-                <option>VIOLIN</option>
-                <option>MUSIC THEORY</option>
-                <option>OTHER</option>
-              </select>
+              <option disabled selected>MUSICAL INTEREST</option>
+              <option>GUITAR</option>
+              <option>PIANO</option>
+              <option>VOCALS</option>
+              <option>VIOLIN</option>
+              <option>MUSIC THEORY</option>
+              <option>OTHER</option>
+            </select>
               <div class="form-group">
                 <input name="email" type="email" class="form-control" required id="email" placeholder="Email*">
               </div>
