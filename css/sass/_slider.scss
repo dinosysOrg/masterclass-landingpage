@@ -9,6 +9,8 @@
     display: none;
   }
   .carousel-indicators {
+    width: initial;
+    margin-left: initial;
     @include maxs($sp-1024) {
       display: none;
     }
@@ -47,16 +49,23 @@
     @include maxs($sp-1400) {
        top: 55%;
     }
+    @include maxs($sp-767) {
+      top: initial;
+      bottom: 0%;
+      right: 0%;
+      left:2%;
+    }
     @include maxs($sp-480) {
-       top: 50%;
-       right: 0%;
-       transform: translate(0%, -50%);
-       left:2%;
+      //  top: 50%;
+      //  right: 0%;
+      //  transform: translate(0%, -50%);
+      //  left:2%;
     }
     h2 {
       font-family: $font-bold;
       color: #f8dc17;
       font-size: 48px;
+      text-transform: uppercase;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       margin-bottom: 10px;
       @include maxs($sp-767) {
