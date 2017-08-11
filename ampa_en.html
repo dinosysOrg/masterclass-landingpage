@@ -15,6 +15,10 @@
 </head>
 
 <body>
+  <!-- text Error -->
+  <div class="landscape-content">
+    <h3>Web is not support for landscape please choose portrait</h3>
+  </div>
   <!-- Loader -->
   <div class="loading">
     <div class="loader">
@@ -156,17 +160,17 @@
         <div id="thankyou_message">Thank you for contacting us !</div>
         <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">    
           <div class="form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="NAME">
+            <input required type="text" name="name" class="form-control" id="name" placeholder="NAME">
           </div>
-          <select class="form-control" name="age" data-style="btn-info">
-              <option disabled selected>AGE GROUP</option>
+          <select required class="form-control" name="age" data-style="btn-info">
+              <option value="" disabled selected>AGE GROUP</option>
               <option>< 12</option>
               <option>13 - 18</option>
               <option>19 - 40</option>
               <option>> 40</option>
             </select>
-          <select class="form-control" name="musical" data-style="btn-info">
-              <option disabled selected>MUSICAL INTEREST</option>
+          <select required class="form-control" name="musical" data-style="btn-info">
+              <option value="" disabled selected>MUSICAL INTEREST</option>
               <option>GUITAR</option>
               <option>PIANO</option>
               <option>VOCALS</option>
@@ -211,17 +215,17 @@
             <div id="thankyou_message_modal">Thank you for contacting us !</div>
             <form id="gformModal" method="POST" action="https://script.google.com/macros/s/AKfycbzbEkeYsq7-T_US8ijFP08vSYK61EsawJkPdGZt4irvNWpKgUtZ/exec">    
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="NAME">
+                <input required type="text" name="name" class="form-control" id="name" placeholder="NAME">
               </div>
-              <select name="age" class="form-control" data-style="btn-info">
-              <option disabled selected>AGE GROUP</option>
+              <select required name="age" class="form-control" data-style="btn-info">
+              <option value="" disabled selected>AGE GROUP</option>
               <option>< 12</option>
               <option>13 - 18</option>
               <option>19 - 40</option>
               <option>> 40</option>
             </select>
-              <select class="form-control" name="musical" data-style="btn-info">
-              <option disabled selected>MUSICAL INTEREST</option>
+            <select required class="form-control" name="musical" data-style="btn-info">
+              <option value="" disabled selected>MUSICAL INTEREST</option>
               <option>GUITAR</option>
               <option>PIANO</option>
               <option>VOCALS</option>
@@ -245,10 +249,20 @@
 
 
   <!-- Bootstrap core JavaScript -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-104348675-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/jquery.fullPage.min.js"></script>
-  <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

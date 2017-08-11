@@ -9,6 +9,8 @@
     display: none;
   }
   .carousel-indicators {
+    width: initial;
+    margin-left: initial;
     @include maxs($sp-1024) {
       display: none;
     }
@@ -47,11 +49,17 @@
     @include maxs($sp-1400) {
        top: 55%;
     }
+    @include maxs($sp-767) {
+      top: initial;
+      bottom: 0%;
+      right: 0%;
+      left:2%;
+    }
     @include maxs($sp-480) {
-       top: 50%;
-       right: 0%;
-       transform: translate(0%, -50%);
-       left:2%;
+      //  top: 50%;
+      //  right: 0%;
+      //  transform: translate(0%, -50%);
+      //  left:2%;
     }
     h2 {
       font-family: $font-bold;
