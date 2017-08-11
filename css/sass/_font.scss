@@ -1,0 +1,95 @@
+@function em($px, $base:$base-font-size) { @return ($px / $base) * 1em; }
+// Mixin query media
+$sp-320: 320px;
+$sp-360: 360px;
+$sp-480: 480px;
+$sp-640: 640px;
+$sp-768: 768px;
+$sp-767: 767px;
+$sp-992: 992px;
+$sp-1024: 1024px;
+$sp-1200: 1200px;
+$sp-1366: 1366px;
+$sp-1400: 1400px;
+$sp-1600: 1600px;
+$sp-1920: 1920px;
+@mixin min($device-width) {
+  @media screen and (min-width: $device-width) {
+    @content
+  }
+};
+@mixin maxs($device-width) {
+  @media screen and (max-width: $device-width) {
+    @content
+  }
+}
+
+
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: url('../fonts/BrandonGrotesque-Bold.eot');
+  src: url('../fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+       url('../fonts/BrandonGrotesque-Bold.woff') format('woff'),
+       url('../fonts/BrandonGrotesque-Bold.ttf') format('truetype'),
+       url('../fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Black';
+  src: url('../fonts/BrandonGrotesque-Black.eot');
+  src: url('../fonts/BrandonGrotesque-Black.woff2') format('woff2'),
+       url('../fonts/BrandonGrotesque-Black.woff') format('woff'),
+       url('../fonts/BrandonGrotesque-Black.ttf') format('truetype'),
+       url('../fonts/BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url('../fonts/BrandonGrotesque-Medium.eot');
+  src: url('../fonts/BrandonGrotesque-Medium.woff2') format('woff2'),
+       url('../fonts/BrandonGrotesque-Medium.woff') format('woff'),
+       url('../fonts/BrandonGrotesque-Medium.ttf') format('truetype'),
+       url('../fonts/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Regular';
+  src: url('../fonts/BrandonGrotesque-Regular.eot');
+  src: url('../fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+       url('../fonts/BrandonGrotesque-Regular.woff') format('woff'),
+       url('../fonts/BrandonGrotesque-Regular.ttf') format('truetype'),
+       url('../fonts/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-bold: BrandonGrotesque-Bold;
+$font-black: BrandonGrotesque-Black;
+$font-medium: BrandonGrotesque-Medium;
+$font-regular: BrandonGrotesque-Regular;
+
+// body.mobile{
+//   @include maxs($sp-1366) {
+//     #myCarousel .carousel-indicators{
+//       left: 70%;
+//     }
+//     #section-3, #section-wonderkid, #section-ampa, #section-2, #section-4{
+//       padding: 100px 0px;
+//     }
+//     #section-3 .box-contact {
+//       float: initial;
+//       margin: auto;
+//     }
+//     #section-2 .left-box-yellow, #section-2 .video-box {
+//       position: initial;
+//       width: 50%;
+//       margin: auto;
+//     }
+//     .stroke{
+//       display: none;
+//     }
+//   }
+// }
