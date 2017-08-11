@@ -66,7 +66,7 @@ $(document).ready(function(e) {
     $.fn.fullpage.moveSectionDown();
   });
   $('#myCarousel').carousel({
-    interval: false,
+    interval: 5000,
     pause: 'false'
   });
 });

@@ -65,6 +65,7 @@
       font-family: $font-bold;
       color: #f8dc17;
       font-size: 48px;
+      text-transform: uppercase;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       margin-bottom: 10px;
       @include maxs($sp-767) {
