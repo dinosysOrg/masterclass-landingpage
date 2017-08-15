@@ -24,6 +24,9 @@ $(document).ready(function(e) {
   var device = mobileAndTabletcheck();
   if (device == true) {
     $('body').addClass('mobile');    
+    $('.btn-arrow-down, .btn-watch-wonderkid').click(function() {
+        $('body').animate({ scrollTop: $('#section-wonderkid').offset().top }, 'slow');
+    });
   } else {
     $('body').addClass('pc');
     $('#fullpage').fullpage({
@@ -49,6 +52,9 @@ $(document).ready(function(e) {
         }
       }
     });
+    $('.btn-arrow-down, .btn-watch-wonderkid').click(function() {
+      $.fn.fullpage.moveSectionDown();
+    });
   }
   setTimeout(function(){
     $('#modalGetNew').modal('show');
@@ -62,9 +68,6 @@ $(document).ready(function(e) {
       $('#modalGetNew').modal('show');
     }, 72000);
   })
-  $('.btn-arrow-down').click(function() {
-    $.fn.fullpage.moveSectionDown();
-  });
   $('#myCarousel').carousel({
     interval: 5000,
     pause: 'false'
