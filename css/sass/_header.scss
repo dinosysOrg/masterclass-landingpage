@@ -13,17 +13,17 @@
     position: absolute;
     z-index: 20;
     display: table;
-    top: 0%;
-    right: 3%;
+    top: 10%;
+    right: 5%;
     padding: 10px;
-    display: none;
     @include maxs($sp-1600) {
       right: 1%;
       padding: 0px;
     }
     @include maxs($sp-1024) {
       position: relative;
-      display: none;
+      // float: right;
+      // display: none;
     }
     .dropdown-toggle {
       padding: 0px;
@@ -56,8 +56,14 @@
       }
     }
   }
+  .navbar-header{
+    margin-top: 10px;
+  }
   .nav-small {
     transition: 500ms;
+    .dropdown {
+      top: 2%;
+    }
     .navbar-brand {
       width: 170px;
       transition: 500ms;
@@ -88,9 +94,9 @@
     ul.navbar-nav {
       position: absolute;
       right: 0%;
-      top: 40%;
+      top: 65%;
       transition: 500ms;
-      transform: translateY(-40%);
+      transform: translateY(-65%);
       @include maxs($sp-1024) {
         position: initial;
         transition: 500ms;
