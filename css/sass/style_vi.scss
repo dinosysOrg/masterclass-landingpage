@@ -1,4 +1,4 @@
-@import 'font';
+@import 'font_vi';
 @import 'header';
 @import 'loader';
 @import 'modal';
@@ -156,7 +156,7 @@ input,
       }
     }
     h3 {
-      font-size: 40px;
+      font-size: 36px;
       color: #fff;
       position: relative;
       z-index: 3;
@@ -168,7 +168,7 @@ input,
       position: relative;
       color: #fff;
       z-index: 3;
-      font-size: 21px;
+      font-size: 19px;
       line-height: 30px;
       padding-right: 20%;
       @include maxs($sp-1024) {
@@ -232,19 +232,19 @@ input,
        width: 95%;
     }
     h3 {
-      font-size: 40px;
+      font-size: 37px;
       line-height: 50px;
       color: #fff;
       font-weight: bold;
       margin-bottom: 15px;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       @include maxs($sp-1366) {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 35px;
       }
     }
     p {
-      font-size: 20px;
+      font-size: 17px;
       color: #fff;
       text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
     }
@@ -408,7 +408,7 @@ input,
       }
     }
     p {
-      font-size: 21px;
+      font-size: 19px;
     }
     .media-object {
       width: 250px;
@@ -499,4 +499,9 @@ input,
 
 .txt-center{
   text-align: center !important;
+}
+
+
+#modalGetNew .modal-body .close-modal span {
+    font-size: 19px;
 }
