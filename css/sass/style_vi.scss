@@ -1,5 +1,5 @@
 @import 'font_vi';
-@import 'header';
+@import 'header_vi';
 @import 'loader';
 @import 'modal';
 @import 'slider';
@@ -17,6 +17,10 @@ h5 {
 .btn-watch-wonderkid{
   font-size: 17px;
   font-family: $font-bold;
+  @include maxs($sp-767) {
+     font-size: 14px;
+     padding: 10px !important;
+   }
 }
 .txt-yellow{
   color: #f8dc17;
