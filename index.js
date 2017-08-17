@@ -1,7 +1,7 @@
-let express = require('express');
-let app = express();
-let enRoute = express.Router();
-let viRoute = express.Router();
+var express = require('express');
+var app = express();
+var enRoute = express.Router();
+var viRoute = express.Router();
 
 //** English Route */
 enRoute.get('/ampa', function(req,res) {
