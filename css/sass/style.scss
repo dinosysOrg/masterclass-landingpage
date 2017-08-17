@@ -1,4 +1,4 @@
-@import 'font';
+@import 'font_vi';
 @import 'header';
 @import 'loader';
 @import 'modal';
@@ -17,6 +17,10 @@ h5 {
 .btn-watch-wonderkid{
   font-size: 17px;
   font-family: $font-bold;
+    @include maxs($sp-767) {
+     font-size: 14px;
+     padding: 10px !important;
+   }
 }
 .txt-yellow{
   color: #f8dc17;
@@ -309,7 +313,7 @@ input,
     margin-bottom: 15px;
   }
   p.note {
-    font-size: 19px;
+    font-size: 21px;
     @include maxs($sp-1024) {
       font-size: 35px;
     }
