@@ -12,7 +12,7 @@
   <link href="./css/font-awesome.min.css" rel="stylesheet">
   <link href="./css/jquery.fullPage.css" rel="stylesheet">
   <link href="./css/animate.min.css" rel="stylesheet">
-  <link href="./css/style_vi.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
   <link href="./css/custom.css" rel="stylesheet">
 </head>
 
@@ -94,29 +94,24 @@
       <!-- /.carousel -->
     </section>
     <section id="section-wonderkid" class="section page-style">
-      <div class="container animated animate-wonder">
-        <div class="row">
-          <div class="col-md-3 col-sm-12">
-            <img class="img-wonderkid" src="./images/logo_wonderkids.png" alt="">
-          </div>
+      <div class='container-wonderkid'>
+        <div class='row'>
+          <div class='col-md-3'><img class="img-wonderkid" src="./images/logo_wonderkids.png" alt=""></div>
         </div>
-        <div class="row">
-          <div class="col-md-9 col-md-offset-3 col-sm-12">
-            <h3>WONDERKIDS VIETNAM</h3>
-            <h4>AMPA is a proud sponsor of Wonderkids.</h4> 
-            <p>
-              Công ty cổ phần Giáo dục Âm nhạc và Nghệ thuật Biểu diễn Á Châu (Asia Music & Performing Arts Education – AMPA Education) là đơn vị duy nhất phân phối giáo trình và cung cấp các chứng chỉ quốc tế về âm nhạc và nghệ thuật biểu diễn tại  Đông Nam Á. Với kinh nghiệm dày dặn, chúng tôi có đầy đủ khả năng cung cấp những nhìn nhận thấu đáo về chuyên ngành tại khu vực. Bởi vậy chúng tôi có đủ năng lực thúc đẩy sự phát triển thị trường bằng cách liên kết các chức năng sản phẩm với yêu cầu khách hàng, tạo ra nhu cầu và cung cấp cho đối tượng phù hợp nhất.
-            </p>
-              <p class="txt-yellow">Đón xem Wonderkids vào chủ nhật lúc 8pm!</p>
+        <h3 class="text-center">WONDERKIDS VIETNAM</h3>
+        <h4 class="text-center">is a proud production of AMPA !</h4>
+        <p class="text-center">
+          Công ty cổ phần Giáo dục Âm nhạc và Nghệ thuật Biểu diễn Á Châu (Asia Music & Performing Arts Education – AMPA Education) là đơn vị duy nhất phân phối giáo trình và cung cấp các chứng chỉ quốc tế về âm nhạc và nghệ thuật biểu diễn tại  Đông Nam Á. Với kinh nghiệm dày dặn, chúng tôi có đầy đủ khả năng cung cấp những nhìn nhận thấu đáo về chuyên ngành tại khu vực. Bởi vậy chúng tôi có đủ năng lực thúc đẩy sự phát triển thị trường bằng cách liên kết các chức năng sản phẩm với yêu cầu khách hàng, tạo ra nhu cầu và cung cấp cho đối tượng phù hợp nhất.
+        </p>
+        <div class='row row-list'>
+          <div class='col-md-4 col-left-wonderkid'>
+            <ul class="nav nav-tabs nav-listvideo nav-stacked">
+            </ul>
           </div>
-        </div>
-        <div class="row">
-          <ul class="list-inline">
-            <li><a title="Watch episode 1" target="_bank" href="https://www.youtube.com/watch?v=PmPnaC_zZAw&list=PL3wAAqFsx6Y2Y7oTptjSHyTq1ClIFObkw"><img src="./images/icon-download.png" alt=""></a></li>
-            <li><a title="Watch episode 2" target="_bank" href="https://www.youtube.com/watch?v=iVD38oa1syg&list=PL3wAAqFsx6Y2ADMZFhgBBkWOuIexWzTzT"><img src="./images/icon-download.png" alt=""></a></li>
-            <li><a title="Watch episode 3" target="_bank" href="https://www.youtube.com/watch?v=tcTQdiAJMWs"><img src="./images/icon-download.png" alt=""></a></li>
-          </ul>
-          <p class="txt-dow">Nhấn vào biểu tượng để xem videos !</p>
+          <div class="col-md-8 col-right-wonderkid">
+            <div class="tab-content tab-wonderkid">
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -220,7 +215,28 @@
       </div>
     </div>
   </div>
-
+  <!-- Modal HTML -->
+  <div id="modalWatchVideo" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <iframe id="videoModal" height="320" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Modal HTML -->
+  <div id="modalListenMusic" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <iframe id="musicModal" name="fancybox-frame1503998640192" style="border:0;margin:0;overflow:auto; width:100%" src="" allowfullscreen="" tabindex="999"></iframe>
+            </div>
+        </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script>
@@ -236,6 +252,7 @@
   <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/scrolloverflow.min.js"></script>
   <script src="./js/jquery.fullPage.min.js"></script>
   <script src="./js/script.js"></script>
 </body>

@@ -1,5 +1,5 @@
 // Modal 
-#modalGetNew {
+#modalGetNew{
   .modal-dialog{
     position: absolute;
     left: 50%;
@@ -70,3 +70,62 @@
     }
   }
 }
+
+#modalWatchVideo {
+  .modal-content{
+    background-color: transparent;
+    border: 0px;
+    box-shadow: 0 0px 0px rgba(0,0,0,.5);
+    .modal-body {
+      padding: 0px;
+      background-color: transparent;
+      .close-modal{
+        background: #fff;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: -15px;
+        top: -15px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        color: #000;
+        font-weight: bold;
+        span{
+          font-size: 20px;
+          position: absolute;
+          left: 31%;
+          top: 0px;
+        }
+      }
+    }
+  }
+}
+#modalListenMusic {
+  .modal-content{
+    border: 0px;
+    box-shadow: 0 0px 0px rgba(0,0,0,.5);
+    background-color: #000;
+    .modal-body {
+      padding: 0px;
+      .close-modal{
+        background: #fff;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: -15px;
+        top: -15px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        color: #000;
+        font-weight: bold;
+        span{
+          font-size: 20px;
+          position: absolute;
+          left: 31%;
+          top: 0px;
+        }
+      }
+    }
+  }
+}
+

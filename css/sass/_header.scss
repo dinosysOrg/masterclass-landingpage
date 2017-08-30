@@ -61,16 +61,19 @@
   }
   .nav-small {
     transition: 500ms;
+    background-color: rgba(255,255,255,0.1);
+    padding-bottom: 5px;
     .dropdown {
       top: 2%;
     }
     .navbar-brand {
-      width: 170px;
+      width: 125px;
       transition: 500ms;
     }
     #navbar ul.navbar-nav li a {
-      font-size: 18px;
+      font-size: 15px;
       transition: 500ms;
+      padding-bottom: 5px;
     }
   }
   .navbar-brand {

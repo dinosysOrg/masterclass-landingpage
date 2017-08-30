@@ -439,7 +439,8 @@ input,
   background-position: 82% 65%;
   .img-wonderkid{
     @include maxs($sp-1400) {
-      margin-top: 40px;
+      width: 250px;
+      padding-top: 100px;
     }
   }
   @include maxs($sp-1024) {
