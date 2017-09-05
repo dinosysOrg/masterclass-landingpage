@@ -32,7 +32,7 @@ app.get('*', function(req, res) {
   res.redirect('/en');
 });
 
-app.listen(3030, function(err) {
+app.listen(3000, function(err) {
   if(err){
     console.log('Err!')
   }
