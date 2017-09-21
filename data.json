@@ -1,5 +1,48 @@
 {
    "results":[
+        {
+            "day":"07-09",
+            "years":"2017",
+            "title":"Tập 7: Âm nhạc cổ điển và âm nhạc điện tử",
+            "content": [
+                {
+                    "des":"Tác phẩm: STRANGER IN PARADISE – Sáng tác: Aleksandre Porefirevich Borodin, George Chet Forrest, Robert Craig Bob Wright - Biên đạo: Thuỷ Đỗ, Mỵ Nương - Nhóm múa: Unicorn",
+                    "actor":"Biểu diễn: Đan Vy",
+                    "youtube":"MtUCprDnQNY",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: BEETHOVEN VIRUS – Sáng tác: LV Beethoven",
+                    "actor":"Biểu diễn: Đăng Duy",
+                    "youtube":"6e_mMr7FWfk",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: BAD – Sáng tác: Michael Jackson - Biên đạo: Hiếu Meshia - Nhóm múa: Unicorn",
+                    "actor":"Biểu diễn: Lan Anh",
+                    "youtube":"mLhFRWnEyiI",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: SWAN LAKE – Sáng tác: P.I.Tchaikovsky",
+                    "actor":"Biểu diễn: Vân Anh",
+                    "youtube":"dl4qH0oqgF8",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: BẢN GIAO HƯỞNG SỐ 5 – Sáng tác: LV Beethoven - Biên đạo: Đỗ Hải Anh - Nhóm múa: Unicorn",
+                    "actor":"Biểu diễn: Vũ An",
+                    "youtube":"RZW7M_DuxzA",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: BAMBOLEO – Sáng tác: Tonino Antoine Baliardo, Nicolas Reyes, Jahloul Bouchikhi, Simon Diaz",
+                    "actor":"Biểu diễn: Hoàng Bảo",
+                    "youtube":"BPRVy_J_DaU",
+                    "music":""
+                }
+            ]
+       },
        {
             "day":"03-09",
             "years":"2017",
