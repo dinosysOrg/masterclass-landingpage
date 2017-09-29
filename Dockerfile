@@ -1,14 +1,15 @@
-FROM alpine:3.1
+FROM mhart/alpine-node:8
 
-# Update
-RUN apk add --update nodejs
+RUN mkdir /app
+WORKDIR /app
 
-# Install app dependencies
-COPY package.json /src/package.json
-RUN cd /src; npm install
+RUN apk update && apk upgrade && \
+    apk add --no-cache git
 
-# Bundle app source
-COPY . /src
+COPY package.json /app
+RUN npm install
 
-EXPOSE  3030
-CMD ["node", "/src/index.js"]
+COPY . /app
+EXPOSE 3000
+
+CMD ["./node_modules/.bin/nodemon", "index"]

@@ -1,7 +1,8 @@
-var express = require('express');
-var app = express();
-var enRoute = express.Router();
-var viRoute = express.Router();
+const express = require('express');
+const app = express();
+const enRoute = express.Router();
+const viRoute = express.Router();
+const cmd = require('node-cmd');
 
 //** English Route */
 enRoute.get('/ampa', function(req,res) {
@@ -30,6 +31,21 @@ app.use('/vi', express.static(__dirname), viRoute);
 
 app.get('*', function(req, res) {
   res.redirect('/en');
+});
+
+app.post('/deploy', function(req, res) {
+  cmd.get(
+    'git pull',
+    function(err, data, stderr) {
+      if (!err) {
+        console.log('the node-cmd cloned dir contains these files :\n\n', data);
+      } else {
+        console.log('error', err);
+      }
+
+      res.send('Deployed Ok').status(201);
+    }
+  );
 });
 
 app.listen(3000, function(err) {
