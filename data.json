@@ -1,6 +1,49 @@
 {
    "results":[
         {
+            "day":"24-09",
+            "years":"2017",
+            "title":"Tập 8: Biến tấu cùng âm nhạc dân tộc Việt Nam",
+            "content": [
+                {
+                    "des":"Tác phẩm: KỂ CHUYỆN NGÀY MÙA – Sáng tác: Thao Giang - Đàn nhị: Đại Dương",
+                    "actor":"Biểu diễn: Vũ An",
+                    "youtube":"yiGEjXhYZeI",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: LK BÓNG CÂY KONIA & TIẾNG ĐÀN TA LƯ – Sáng tác: Phan Huỳnh Điểu - Ngọc Anh - Huy Thục - Trống: Thanh Sơn - Sáo: Văn Quyết",
+                    "actor":"Biểu diễn: Lan Anh",
+                    "youtube":"TgbGhbJEzHc",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: MÙA MÂM VÀNG DÂN GIAN NAM BỘ (trên nền nhạc tác phẩm: Biến tấu Lý Đất Giồng) Dân ca - Đàn tứ: Trần Quang - Đàn Tranh: Hải Phượng - Đàn bầu: Minh Phát - Sáo: NSƯT Đinh Linh - Biên đạo: NGƯT Vĩnh Hiền - Jenny Lưu - Vũ Công: Thành Phát & Đức Sang",
+                    "actor":"Biểu diễn: Vân Anh",
+                    "youtube":"1PKbJ3f6D84",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: PHARAON – Sáng tác: Jahloul Bouchikhi, Bruno Maurice Ballardo, Patchai Reyes, Nicolas Reyes, Paul Roger Reyes, Maurice Victor Ballardo, Tonino Antoine Ballardo - Đàn tứ: Trần Quang",
+                    "actor":"Biểu diễn: Hoàng Bảo",
+                    "youtube":"4ZoGyFPYsm8",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: DÂN CA BA MIỀN: HOA THƠM BƯỚM LƯỢN, LÝ QUA ĐÈO VÀ LÝ NGỰA Ô - Sưu tầm: Lư Nhật Vũ - Tôn Thất Lan - Lê Giang - Đan tranh: Hải Phượng - Đàn bầu: Minh Phát - Sáo: NSƯT Đinh Linh - Đàn nhị: Đại Dương",
+                    "actor":"Biểu diễn: Đăng Duy",
+                    "youtube":"Xi9u2VJOkGI",
+                    "music":""
+                },
+                {
+                    "des":"Tác phẩm: RISE UP - Sáng tác: Jennifer Erin Decliveo, Cassandra Monique Batie - Biên đạo: Đỗ Hải ANh & Hà Lộc - Nhóm múa: Unicorn - Biên đạo: Đỗ Hải ANh & Hà Lộc - Nhóm múa: Unicorn",
+                    "actor":"Biểu diễn: Đan Vy",
+                    "youtube":"BJlwvjW4TRo",
+                    "music":""
+                }
+            ]
+        },
+        {
             "day":"07-09",
             "years":"2017",
             "title":"Tập 7: Âm nhạc cổ điển và âm nhạc điện tử",
