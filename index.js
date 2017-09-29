@@ -52,4 +52,6 @@ app.listen(3000, function(err) {
   if(err){
     console.log('Err!')
   }
+
+  console.log('Server is listening at port : 3000');
 });
