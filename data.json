@@ -1,6 +1,55 @@
 {
    "results":[
         {
+           "day":"01-10",
+           "years":"2017",
+           "title":"Tập 9: Đêm nhạc Jazz cổ điển",
+           "content": [
+               {
+                   "des":"Tác phẩm: SUMMER TIME - Sáng tác: Heyward Dorothy, George Gershwin, Ira Gershwin, Dubose Edwin Heyward",
+                   "actor":"Biểu diễn: Đăng Duy",
+                   "youtube":"p6DSOm4Fdxc",
+                   "music":"https://bit.ly/2fODSLc"
+               },
+               {
+                   "des":"Tác phẩm: CHEEK TO CHEEK – Sáng tác: Irving Berlint - Biên đạo: Thuỷ Đỗ, Mỵ Nương - Nhóm múa: The Sun",
+                   "actor":"Biểu diễn: Đan Vy",
+                   "youtube":"2B_DHOSl8TU",
+                   "music":"https://bit.ly/2y1fm01"
+               },
+               {
+                   "des":"Tác phẩm: AUTUMN LEAVES - Sáng tác: Joseph Kosma, Jacques Andre Marie Prevert",
+                   "actor":"Biểu diễn: Hoàng Bảo",
+                   "youtube":"2O06JqlgKv0",
+                   "music":"https://bit.ly/2wvZfDL"
+               },
+               {
+                   "des":"Tác phẩm: SOMEWHERE OVER THE RAINBOW/ ETUDE FOR THE LEFT HAND - Sáng tác: Harold Arlen, Felix Michajlowitsch Blumenfeld",
+                   "actor":"Biểu diễn: Lan Anh",
+                   "youtube":"VODqrP1RsmA",
+                   "music":"https://bit.ly/2g9UFF4"
+               },
+               {
+                   "des":"Tác phẩm: MACAVITY: THE MYSTERY CAT - Sáng tác: Thomas Stearns Eliot, Andrew Lloyd Webber - Nhóm múa: The Sun",
+                   "actor":"Biểu diễn: Vân Anh",
+                   "youtube":"Xi9u2VJOkGI",
+                   "music":"https://bit.ly/2ynKRSC"
+               },
+               {
+                   "des":"Tác phẩm: RHAPSODY IN BLUE - Sáng tác: George Gershwin - Biên đạo: Hà Lộc, Như Ý - Nhóm múa: Unicorn",
+                   "actor":"Biểu diễn: Vũ An",
+                   "youtube":"EiIc-3HKNPU",
+                   "music":"https://bit.ly/2xZNcSR"
+               },
+               {
+                   "des":"Tác phẩm: BIỂN NHỚ - Sáng tác: Trịnh Công Sơn - Trống: Công Thanh - Guitar Bass: Quốc Hiển",
+                   "actor":"Biểu diễn: Nghệ sĩ Cường Vũ - Piano: Anh Khoa",
+                   "youtube":"-Dt8sxJ9-sM",
+                   "music":"https://bit.ly/2kiCC44"
+               }
+           ]
+        },
+        {
             "day":"24-09",
             "years":"2017",
             "title":"Tập 8: Biến tấu cùng âm nhạc dân tộc Việt Nam",
@@ -9,37 +58,37 @@
                     "des":"Tác phẩm: KỂ CHUYỆN NGÀY MÙA – Sáng tác: Thao Giang - Đàn nhị: Đại Dương",
                     "actor":"Biểu diễn: Vũ An",
                     "youtube":"yiGEjXhYZeI",
-                    "music":""
+                    "music":"https://bit.ly/2wx9tUx"
                 },
                 {
                     "des":"Tác phẩm: LK BÓNG CÂY KONIA & TIẾNG ĐÀN TA LƯ – Sáng tác: Phan Huỳnh Điểu - Ngọc Anh - Huy Thục - Trống: Thanh Sơn - Sáo: Văn Quyết",
                     "actor":"Biểu diễn: Lan Anh",
                     "youtube":"TgbGhbJEzHc",
-                    "music":""
+                    "music":"https://bit.ly/2kjRpvE"
                 },
                 {
                     "des":"Tác phẩm: MÙA MÂM VÀNG DÂN GIAN NAM BỘ (trên nền nhạc tác phẩm: Biến tấu Lý Đất Giồng) Dân ca - Đàn tứ: Trần Quang - Đàn Tranh: Hải Phượng - Đàn bầu: Minh Phát - Sáo: NSƯT Đinh Linh - Biên đạo: NGƯT Vĩnh Hiền - Jenny Lưu - Vũ Công: Thành Phát & Đức Sang",
                     "actor":"Biểu diễn: Vân Anh",
                     "youtube":"1PKbJ3f6D84",
-                    "music":""
+                    "music":"https://bit.ly/2xX6Ezi"
                 },
                 {
                     "des":"Tác phẩm: PHARAON – Sáng tác: Jahloul Bouchikhi, Bruno Maurice Ballardo, Patchai Reyes, Nicolas Reyes, Paul Roger Reyes, Maurice Victor Ballardo, Tonino Antoine Ballardo - Đàn tứ: Trần Quang",
                     "actor":"Biểu diễn: Hoàng Bảo",
                     "youtube":"4ZoGyFPYsm8",
-                    "music":""
+                    "music":"https://bit.ly/2fPpZMs"
                 },
                 {
                     "des":"Tác phẩm: DÂN CA BA MIỀN: HOA THƠM BƯỚM LƯỢN, LÝ QUA ĐÈO VÀ LÝ NGỰA Ô - Sưu tầm: Lư Nhật Vũ - Tôn Thất Lan - Lê Giang - Đan tranh: Hải Phượng - Đàn bầu: Minh Phát - Sáo: NSƯT Đinh Linh - Đàn nhị: Đại Dương",
                     "actor":"Biểu diễn: Đăng Duy",
                     "youtube":"Xi9u2VJOkGI",
-                    "music":""
+                    "music":"https://bit.ly/2fPxQdf"
                 },
                 {
                     "des":"Tác phẩm: RISE UP - Sáng tác: Jennifer Erin Decliveo, Cassandra Monique Batie - Biên đạo: Đỗ Hải ANh & Hà Lộc - Nhóm múa: Unicorn - Biên đạo: Đỗ Hải ANh & Hà Lộc - Nhóm múa: Unicorn",
                     "actor":"Biểu diễn: Đan Vy",
                     "youtube":"BJlwvjW4TRo",
-                    "music":""
+                    "music":"https://bit.ly/2xZzsaP"
                 }
             ]
         },
@@ -52,37 +101,37 @@
                     "des":"Tác phẩm: STRANGER IN PARADISE – Sáng tác: Aleksandre Porefirevich Borodin, George Chet Forrest, Robert Craig Bob Wright - Biên đạo: Thuỷ Đỗ, Mỵ Nương - Nhóm múa: Unicorn",
                     "actor":"Biểu diễn: Đan Vy",
                     "youtube":"MtUCprDnQNY",
-                    "music":""
+                    "music":"https://bit.ly/2xfdlhl"
                 },
                 {
                     "des":"Tác phẩm: BEETHOVEN VIRUS – Sáng tác: LV Beethoven",
                     "actor":"Biểu diễn: Đăng Duy",
                     "youtube":"6e_mMr7FWfk",
-                    "music":""
+                    "music":"https://bit.ly/2xfkSYP"
                 },
                 {
                     "des":"Tác phẩm: BAD – Sáng tác: Michael Jackson - Biên đạo: Hiếu Meshia - Nhóm múa: Unicorn",
                     "actor":"Biểu diễn: Lan Anh",
                     "youtube":"mLhFRWnEyiI",
-                    "music":""
+                    "music":"https://bit.ly/2kovkfx"
                 },
                 {
                     "des":"Tác phẩm: SWAN LAKE – Sáng tác: P.I.Tchaikovsky",
                     "actor":"Biểu diễn: Vân Anh",
                     "youtube":"dl4qH0oqgF8",
-                    "music":""
+                    "music":"https://bit.ly/2xdNd6G"
                 },
                 {
                     "des":"Tác phẩm: BẢN GIAO HƯỞNG SỐ 5 – Sáng tác: LV Beethoven - Biên đạo: Đỗ Hải Anh - Nhóm múa: Unicorn",
                     "actor":"Biểu diễn: Vũ An",
                     "youtube":"RZW7M_DuxzA",
-                    "music":""
+                    "music":"https://bit.ly/2kovXWr"
                 },
                 {
                     "des":"Tác phẩm: BAMBOLEO – Sáng tác: Tonino Antoine Baliardo, Nicolas Reyes, Jahloul Bouchikhi, Simon Diaz",
                     "actor":"Biểu diễn: Hoàng Bảo",
                     "youtube":"BPRVy_J_DaU",
-                    "music":""
+                    "music":"https://bit.ly/2ymNUuq"
                 }
             ]
        },
@@ -95,37 +144,37 @@
                     "des":"Tác phẩm: MẸ YÊU CON – Sáng tác: Nguyễn Văn Tý - Biên đạo: Hà Lộc - Vũ Công: Như Ý và bé Bảo Minh",
                     "actor":"Biểu diễn: Vũ An",
                     "youtube":"Yn_d6qDOTTI",
-                    "music":""
+                    "music":"https://bit.ly/2klsHuI"
                 },
                 {
                     "des":"Tác phẩm: RA NGÕ TỤNG KINH – Sáng tác: Trần Tiến - Biên đạo: Jenny Lưu - Đình Lộc và Xuân Thảo - Vũ đoàn: The Sun",
                     "actor":"Biểu diễn: Vân Anh",
                     "youtube":"4rqCp_S-VFc",
-                    "music":""
+                    "music":"https://bit.ly/2xXjAFt"
                 },
                 {
                     "des":"Tác phẩm: LK TỰ NGUYỆN - EM LÀ HOA HỒNG NHỎ – Nhạc: Trương Quốc Khánh - Lời: Tố Hữu - Sáng tác: Trịnh Công Sơn - Biên đạo: Hà Lộc - Vũ công: Bé Hà Anh và ABC Kids",
                     "actor":"Biểu diễn: Lan Anh",
                     "youtube":"vT9nYMEeAZ8",
-                    "music":""
+                    "music":"https://bit.ly/2yHhoPT"
                 },
                 {
                     "des":"Tác phẩm: TUỔI ĐỜI MÊNH MÔNG – Sáng tác: Trịnh Công Sơn - Biên đạo: Hà Lộc - Nhóm múa: Unicorn Dance",
                     "actor":"Biểu diễn: Hoàng Bảo và giảng viên Jonny",
                     "youtube":"Ehy16nh8lTY",
-                    "music":""
+                    "music":"https://bit.ly/2yXrTj9"
                 },
                 {
                     "des":"Tác phẩm: LK SONATA ÁNH TRĂNG - DIỄM XƯA – Sáng tác: Ludwig van Beethoven - Trịnh Công Sơn",
                     "actor":"Biểu diễn: Đăng Duy",
                     "youtube":"Jv_Tgp7Q16o",
-                    "music":""
+                    "music":"https://bit.ly/2xf4jkk"
                 },
                 {
                     "des":"Tác phẩm: SƠN NỮ CA – Sáng tác: Trần Hoàn",
                     "actor":"Biểu diễn: Đan Vy",
                     "youtube":"O-55-V9UKqk",
-                    "music":""
+                    "music":"https://bit.ly/2xf4wnC"
                 },
                 {
                     "des":"Tác phẩm: MÙA HÈ ĐẸP NHẤT – Sáng tác: Đức Huy",
@@ -144,37 +193,37 @@
                    "des":"Tác phẩm: MAMBO ITALIANO – Sáng tác: Bob Merrill Biên đạo Hà Lộc - Như Ý Nhóm múa: Unicorn Dance",
                    "actor":"Biểu diễn: Đan Vy",
                    "youtube":"ZjZiuxnf62k",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/MAMBO-ITALIANO-Cover-by-Dan-Vy.mp3"
+                   "music":"https://bit.ly/2kjNsqy"
                },
                {
                    "des":"Tác phẩm: LK ANITRA'S DANCE - IN THE HALL OF MOUNTAIN KING – Sáng tác: Advard Hagerup Grieg - Gary Bild Biên đạo Thuỷ Đỗ - Phi Điệp Vũ Công: Hải Anh",
                    "actor":"Biểu diễn: Đăng Duy",
                    "youtube":"b6bhP-n9XH8",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/LK-ANITRAS-DANCE-IN-THE-HALL-OF-MOUNTAIN-KING-Piano-by-Dang-Duy.mp3"
+                   "music":"https://bit.ly/2xfFos6"
                },
                {
                    "des":"Tác phẩm: BÈO DẠT MÂY TRÔI - Sáng tác: Dân ca Việt Nam",
                    "actor":"Biểu diễn: Hoàng Bảo",
                    "youtube":"auvJnKraiYs",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/BEO-DAT-MAY-TROI-Guitar-cover-by-Hoang-Bao.mp3"
+                   "music":"https://bit.ly/2xYFsjX"
                },
                {
                    "des":"Tác phẩm: MÚA NGA - KALINKA – Sáng tác: James Last",
                    "actor":"Biểu diễn: Vân Anh",
                    "youtube":"qlgzBpSdPtI",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/KALINKA.mp3"
+                   "music":"https://bit.ly/2g7YGKm"
                },
                {
                    "des":"Tác phẩm: LET IT GO – Sáng tác: Kristen Anderson Lopez, Robert J Lopez, Emanuel Kiriakou",
                    "actor":"Biểu diễn: Vanessa Võ",
                    "youtube":"FgbKiFVb4lU",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/TANGO-JALOUSIE-Violin-by-Vu-An.mp3"
+                   "music":"https://bit.ly/2yHJavw"
                },
                {
                    "des":"Tác phẩm: TANGO JALOUSIE – Sáng tác: Jacob Gade Biên đạo Thuỷ Đỗ - Mỵ Nương Nhóm múa: Unicorn Dance",
                    "actor":"Biểu diễn: Vũ An",
                    "youtube":"sSGTgrCDYhs",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/TANGO-JALOUSIE-Violin-by-Vu-An.mp3"
+                   "music":"https://bit.ly/2wvJ5KH"
                }
            ]
       },
@@ -187,37 +236,37 @@
                    "des":"Tác phẩm: NHẬT KÝ CỦA MẸ – Sáng tác: Nguyễn Văn Chung",
                    "actor":"Biểu diễn: Vũ An & ca sĩ Hiền Thục",
                    "youtube":"WhfnWREoxDU",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/NH%E1%BA%ACT-K%C3%9D-C%E1%BB%A6A-M%E1%BA%B8.mp3"
+                   "music":"https://bit.ly/2yI7aPe"
                },
                {
                    "des":"Tác phẩm: CHO CON – Nhạc: Phạm Trọng Cầu – Lời: Tuấn Dũng",
                    "actor":"Biểu diễn: Vân Anh & ca sĩ Hồng Nhung",
                    "youtube":"L5sXwhsoZeo",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/CHO-CON.mp3"
+                   "music":"https://bit.ly/2ga0GSt"
                },
                {
                    "des":"Tác phẩm: BA KỂ CON NGHE – Sáng tác: Nguyễn Hải Phong",
                    "actor":"Biểu diễn: Lan Anh & ca sĩ Vũ Cát Tường",
                    "youtube":"qLNu1fnMESU",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/BA-K%E1%BB%82-CON-NGHE.mp3"
+                   "music":"https://bit.ly/2hMwbWp"
                },
                {
                    "des":"Tác phẩm: PAPA – Sáng tác: Paul Anka",
                    "actor":"Biểu diễn: Hoàng Bảo & ca sĩ Uyên Linh",
                    "youtube":"jlWBtsJfH8Q",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/PAPA.mp3"
+                   "music":"https://bit.ly/2hO8VqL"
                },
                {
                    "des":"Tác phẩm: SWAN – DREAM GIRL – Sáng tác: Tchaikovsky – Bích Ngọc",
                    "actor":"Biểu diễn: Đăng Duy & ca sĩ Bích Ngọc",
                    "youtube":"gvqzAz9LbEs",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/SWAN-DREAM-GIRL.mp3"
+                   "music":"https://bit.ly/2xXI9Cd"
                },
                {
                    "des":"Tác phẩm: DREAM A DREAM – Sáng tác: James Robert Shearman, Sam Babenia, Simon Greenaway",
                    "actor":"Biểu diễn: Đan Vy & ca sĩ Hoàng Quyên",
                    "youtube":"gvqzAz9LbEs",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/SWAN-DREAM-GIRL.mp3"
+                   "music":"https://bit.ly/2yWDleG"
                }
            ]
       },
@@ -230,43 +279,43 @@
                    "des":"Tác phẩm: THE ISLAND (A DAY IN NEWYORK) – Sáng tác: Adam Gyorgy",
                    "actor":"Biểu diễn: Adam Gyorgy",
                    "youtube":"7Qgyda6L4Cw",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/ADAM.mp3"
+                   "music":"https://bit.ly/2yo4Dxt"
                },
                {
                    "des":"Tác phẩm: PART OF YOUR WORLD – Sáng tác: Alan Menken, Howard Elliott Ashman",
                    "actor":"Biểu diễn: Đan Vy",
                    "youtube":"gQTZIw0YE7E",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/DAN-VY.mp3"
+                   "music":"https://bit.ly/2xPq5L5"
                },
                {
                    "des":"Tác phẩm: HUNGARIGAN RHAPSODY NO. 2 ft. CHOPSTICKS -Sáng tác: Hungarigan Rhapsody No.2 Franz Lizst – Chopsticks: Euphemia Allen",
                    "actor":"Biểu diễn: Đăng Duy",
                    "youtube":"xvbQD6O7yak",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/DANG-DUY.mp3"
+                   "music":"https://bit.ly/2xRHCjf"
                },
                {
                    "des":"Tác phẩm: ENTERTAINER – Sáng tác: Scott Joplin",
                    "actor":"Biểu diễn: Hoàng Bảo",
                    "youtube":"4WM6HQactGI",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/HOANG-BAO.mp3"
+                   "music":"https://bit.ly/2xZU9n9"
                },
                {
                    "des":"Tác phẩm: ARABIAN NIGHTS – Sáng tác: Alan Menken, Howard Elliott Ashman",
                    "actor":"Biểu diễn: Vân Anh",
                    "youtube":"DLgLeE85jJ8",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/VAN-ANH.mp3"
+                   "music":"https://bit.ly/2xZVnP2"
                },
                {
                    "des":"Tác phẩm: PIRATES OF THE CARIBBEAN – Sáng tác: Geoffrey Paul Zanelli, Zimmer Hans F. Steve K Jablonsky, James Dooley, Klaus Badelt, Ramin Djawadi",
                    "actor":"Biểu diễn: Vũ An",
                    "youtube":"1T-Wq5bwkIo",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/VU-AN.mp3"
+                   "music":"https://bit.ly/2ko2FXY"
                },
                {
                    "des":"Tác phẩm: DO RE MI – Sáng tác: Oscar li Hammerstein, Richard Rodgers",
                    "actor":"Biểu diễn: Lan Anh",
                    "youtube":"ZCRLORMSIgE",
-                   "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/DO-RE-MI.mp3"
+                   "music":"https://bit.ly/2fPxYth"
                }
            ]
       },
@@ -279,37 +328,37 @@
                "des":"Tác phẩm: DANCE OF THE SUGAR PLUM FAIRY (trích trong vỡ Vũ kịch “Kẹp hạt dẻ”) – Sáng tác: Peter Ilyrich Tchaikovsky, George Henry Pollen; Pantatonoix (Avi Benjamin Kaplan, Benjamin Allan Bram, Kevin Oluwole Olusola)",
                "actor":"Biểu diễn: Vân Anh",
                "youtube":"Kwbsmf766s4",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Dance-of-the-sugar-plum-fairy-dance-cover-by-Van-Anh.mp3"
+               "music":"https://bit.ly/2xXyhYQ"
            },
            {
                "des":"Tác phẩm: CONCERTO NO 2 IN G MINOR – SUMMER – Sáng tác: Antonio Lucio Vivaldi, Zachary",
                "actor":"Biểu diễn: Vũ An",
                "youtube":"ethzFrSvNpk",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Concerto-no-2-in-G-minor-violin-cover-by-Vu-An.mp3"
+               "music":"https://bit.ly/2xenhYs"
            },
            {
                "des":"Tác phẩm: TRỐNG CƠM – Dân ca – chuyển soạn piano: Đặng Hữu Phúc",
                "actor":"Biểu diễn: Lan Anh",
                "youtube":"iVD38oa1syg",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Trong-com-Piano-cover-by-Lan-Anh.mp3"
+               "music":"https://bit.ly/2hO9m4n"
            },
            {
                "des":"Tác phẩm: Romance D’Amour – Sáng tác: Nghệ sĩ vô danh",
                "actor":"Biểu diễn: Hoàng Bảo",
                "youtube":"9pGOjIRsYgs",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Romance-Damour-Guitar-cover-by-Hoang-Bao.mp3"
+               "music":"https://bit.ly/2xf8GvK"
            },
            {
                "des":"Tác phẩm: TANGO (POR UNA CARBEZA) – Sáng tác: Carlos Gardel, Mario M Leblanc",
                "actor":"Biểu diễn: Đăng Duy",
                "youtube":"JZPnaQh3GQQ",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Tango-Pop-Una-Carbeza-Piano-cover-by-Dang-Duy.mp3"
+               "music":"https://bit.ly/2yooQ6m"
            },
            {
                "des":"Tác phẩm: THE PRAYER & THANK YOU FOR THE MUSIC – Sáng tác: Carole Sager & David W Foster – Benny Andersson & Bjoem K Ulvaeus",
                "actor":"Biển diễn: Đan Vy",
                "youtube":"1kCbS65IVOo",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/The-Prayer-Thank-you-for-the-music-Cover-by-Dan-Vy.mp3"
+               "music":"https://bit.ly/2fKLKts"
            }
        ]
       },
@@ -322,37 +371,37 @@
                "des":"Tác phẩm: ON Y VA – Sáng tác: Freres",
                "actor":"Biểu diễn: Đăng Duy – Giảng viên Piano Tuấn Mạnh",
                "youtube":"PmPnaC_zZAw",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/On-Y-Va.mp3"
+               "music":"https://bit.ly/2xXDIY8"
            },
            {
                "des":"Tác phẩm: SERENADE – Sáng tác: Franz Schubert – Tạm dịch: Khúc ban chiều",
                "actor":"Biểu diễn: Hoàng Bảo – Giảng viên Guitar Kim Chung",
                "youtube":"Ynj3lvgxe58",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Serenade.mp3"
+               "music":"https://bit.ly/2gauHBz"
            },
            {
                "des":"Tác phẩm: WHAT A WONDERFUL WORLD – Sáng tác: G. D. Weiss, Robert Thiele",
                "actor":"Biểu diễn: Lan Anh – Giảng viên Piano Bích Trà",
                "youtube":"ZzVk1nSgBEc",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/What-a-wonderful-World.mp3"
+               "music":"https://bit.ly/2yowNsn"
            },
            {
                "des":"Tác phẩm: CONCERT FOR 2 VIOLINS (AM) – Sáng tác: Atonio Lucio Vivaldi",
                "actor":"Biểu diễn: Vũ An – Giảng viên Violin Đình Bình",
                "youtube":"1Pq9gZGGrKo",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Concert-2-Violins-in-A.mp3"
+               "music":"https://bit.ly/2yWI5Rz"
            },
            {
                "des":"Tác phẩm: IMPOSSIBLE – Sáng tác: Oscar Li Hammerstein, Richard Rodgers",
                "actor":"Biểu diễn: Đan Vy – Giảng viên thanh nhạc Triệu Yên",
                "youtube":"E71ZX__zpN8",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/Impossible.mp3"
+               "music":"https://bit.ly/2ymzgDq"
            },
            {
                "des":"Tác phẩm: FLEMENEO – Sáng tác: Lole & Manel, remix by Novel Music",
                "actor":"Biển diễn: Vân Anh – Giảng viên múa Jenny Lưu",
                "youtube":"Ddp7buJHmvQ",
-               "music":"https://thandongamnhac.vn/wp-content/uploads/2017/08/V%C3%A2n-Anh-ballet-Flameneo-1.35s-final-edited.mp3"
+               "music":"https://bit.ly/2xfmIZJ"
            }
        ]
       }
