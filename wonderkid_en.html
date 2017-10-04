@@ -230,9 +230,11 @@
   <div id="modalListenMusic" class="modal fade">
       <div class="modal-dialog">
           <div class="modal-content">
-              <div class="modal-body">
+              <div class="modal-body text-center">
                   <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                  <iframe id="musicModal" name="fancybox-frame1503998640192" style="border:0;margin:0;overflow:auto; width:100%" src="" allowfullscreen="" tabindex="999"></iframe>
+                  <audio autoplay id="musicModal" preload="none" controls="" style="max-width:100%;">
+                    <source class="sourceMusic" src="" type="audio/mp3">
+                  </audio>
               </div>
           </div>
       </div>
